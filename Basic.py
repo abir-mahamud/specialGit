@@ -39,3 +39,26 @@ average_passengers_per_car = passengers / cars_driven
 print("There are", cars, "cars available")
 print("We can transport", carpool_capacity, "people today")
 print("we need to put about", average_passengers_per_car, "in each car")
+
+
+
+#More variables & printing
+Crush_name = 'Mumu'
+her_age = 23 #probably
+her_height = 61 #inches
+her_weight = 127 #lbs
+her_eyes = 'Black'
+her_smile = 'amazing'
+her_hair = 'Black'
+
+print(f"Let's talk about {Crush_name}")
+print(f"She's {her_height} inches tall")
+print(f"She's {her_weight} pounds heavy")
+print("Actually i love her chubbiness")
+print(f"She's got {her_hair} hair & {her_smile} smile")
+
+#this is a tricky one, there is no inverted comma
+total = her_age + her_height + her_weight
+print(f"If i add {her_age}, {her_height} and {her_weight} I get {total}")
+
+
