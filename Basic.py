@@ -113,3 +113,12 @@ print(end1 + end2 + end3, end=' ')
 print(end4 + end5 + end6 + end7, end=' ')
 print(end8 + end9 + end10 + end11 + end12)
 
+
+
+#Printing Printing 
+formatter = "{} {} {} {}"
+
+print(formatter.format(1, 2, 3, 4))
+print(formatter.format("one", "two", "three", "four"))
+print(formatter.format(True, False, True, True))
+print(formatter.format("this stge is", "so hard", "but don't", "loose confidence" ))
