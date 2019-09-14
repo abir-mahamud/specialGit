@@ -122,3 +122,25 @@ print(formatter.format(1, 2, 3, 4))
 print(formatter.format("one", "two", "three", "four"))
 print(formatter.format(True, False, True, True))
 print(formatter.format("this stge is", "so hard", "but don't", "loose confidence" ))
+
+
+
+
+#Asking questions
+print("How old are you?", end='')
+age = input()
+print("How tall are you?", end='')
+height = input()
+print("How much do you weigh?", end='')
+weight = input()
+
+print(f"So, you're {age} year's old, {height} tall and {weight} heavy.")
+
+
+
+#Prompting People
+age = input("How old are you?")
+height = input("How tall are you?")
+weight = input("How much do you weigh?")
+
+print(f"So, you're {age}years old, {height}inch tall and {weight}lbs heavy")
