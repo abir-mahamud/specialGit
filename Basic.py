@@ -62,3 +62,25 @@ total = her_age + her_height + her_weight
 print(f"If i add {her_age}, {her_height} and {her_weight} I get {total}")
 
 
+
+#String & text
+types_of_girls = 2
+x = f"there are {types_of_girls} types og girls"
+
+hot_chicks = "Korra Maal"
+cute_and_pretty = "Shundori's"
+y = f"One is {hot_chicks} another one is {cute_and_pretty}"
+
+print(x)
+print(y)
+
+print(f"I said: {x}")
+print(f"I also said: '{y}'")
+
+hilarious = True
+speech_evalution = "Is that statement is right? {}"
+print(speech_evalution.format(hilarious))
+
+w = "sometimes i love korra maal "
+e = "sometimes both"
+print(w + e)
