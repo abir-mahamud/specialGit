@@ -84,3 +84,32 @@ print(speech_evalution.format(hilarious))
 w = "sometimes i love korra maal "
 e = "sometimes both"
 print(w + e)
+
+
+
+
+#More printing
+
+print("Mary is such a hot milf")
+snow = True
+print("it's fleece was white as {}.".format(snow))
+print("and everywhere that mary went")
+print("." * 10)
+
+end1 = "H"
+end2 = "o"
+end3 = "t"
+end4 = "M"
+end5 = "i"
+end6 = "l"
+end7 = "f"
+end8 = "L"
+end9 = "o"
+end10 = "v"
+end11 = "e"
+end12 = "r"
+
+print(end1 + end2 + end3, end=' ')
+print(end4 + end5 + end6 + end7, end=' ')
+print(end8 + end9 + end10 + end11 + end12)
+
