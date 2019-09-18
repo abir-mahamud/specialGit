@@ -144,3 +144,43 @@ height = input("How tall are you?")
 weight = input("How much do you weigh?")
 
 print(f"So, you're {age}years old, {height}inch tall and {weight}lbs heavy")
+
+
+
+
+
+#Reading & Writing Files
+
+from sys import argv
+
+script, filename = argv
+
+print(f"We're going to erase {filename}.")
+print("If you don't want that, hit CTRL-C (^C).")
+print("If you do want that, Hit RETURN")
+
+input("?")
+
+print("Opening the file...")
+target = open(filename, 'w') #permission to write
+
+print("Truncating the file. Goodbye!")
+target.truncate() #with or without this it will run
+
+print("Now I'm going to ask you three lines.")
+
+line1 = input("line1: ")
+line2 = input("line2: ")
+line3 = input("line3: ")
+
+print("I'm going to write these to the file.")
+
+target.write(line1)
+target.write("\n")
+target.write(line2)
+target.write("\n")
+target.write(line3)
+target.write("\n")
+
+print("And finally, we close it.")
+target.close()
