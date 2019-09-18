@@ -184,3 +184,29 @@ target.write("\n")
 
 print("And finally, we close it.")
 target.close()
+
+
+
+
+# Name Variables Code Functions
+# this one is like my scripts with argv
+def first_function(*args):
+    arg1, arg2 = args
+    print(f"arg1: {arg1}, args2: {arg2}")
+
+# ok, that *args is actually pointless, we can just do this
+def second_function(arg1, arg2):
+    print(f"arg1: {arg1}, arg2: {arg2}")
+
+# this one takes one argument
+def third_function(arg1):
+    print(f"arg1: {arg1}")
+
+# this one take no arguments
+def fourth_function():
+    print("I got nothin")
+
+first_function("Bidgette", "B")
+second_function("Britney", "Amber")
+third_function("Milf")
+fourth_function()
