@@ -185,6 +185,8 @@ target.write("\n")
 print("And finally, we close it.")
 target.close()
 
+### Command Line Run --- Ex. python Basic.py(filename) convert.txt(converted_file_name)
+
 
 
 
