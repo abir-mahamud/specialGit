@@ -272,6 +272,8 @@ print("That becomes", what, "Can you do it by hand?")
 
 
 
+
+
 #What IF
 people = 20
 milf = 25
@@ -299,3 +301,34 @@ if people <= hot_chicks:
 
 if people == hot_chicks:
     print("all of them are hot_chicks")
+
+    
+    
+        
+
+#Else and if
+men = 30
+women = 40
+hot_women = 15
+
+if women > men:
+    print("we should take care of them and our wives as well")
+
+elif women < men:
+    print("poor luck man")
+
+else:
+    print("it's not happening")
+
+if hot_women > women:
+    print("majority will get the priority")
+
+elif hot_women < women:
+    print("you guy's needs to be hot")
+else :
+    print("That's not happening either")
+
+if men > hot_women:
+    print("you have to be lucky enough")
+else:
+    print("me to hot women: you're not alone")
