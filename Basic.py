@@ -332,3 +332,50 @@ if men > hot_women:
     print("you have to be lucky enough")
 else:
     print("me to hot women: you're not alone")
+    
+    
+    
+        
+    
+#Making Decisions
+print("As you're a renowned film director in town. Two girls came to you as both wants to be actress and you're gonna choose one from Girl #1 and Girl #2")
+
+girl = input("> ")
+
+if girl == "1":
+    print("She is damn hot milf")
+    print("Now what do you do?")
+    print("1.Ask for give and take in return")
+    print("2.Fuck her instant")
+
+    hot_milf = input("> ")
+
+    if hot_milf == "1":
+        print("You're straight forward")
+
+    elif hot_milf == "2":    
+        print("You're damn bro")
+
+    else:
+        print(f"Well!! This is insane, {hot_milf} mr.director!")
+
+elif girl == "2":
+    print("She is your ex and now she is more hot")
+    print("Now what do you do?")
+    print("1.Insult her")
+    print("2.Fall in love again")
+    print("3.As she becomes more hot so fuck her then cast her for your movie and fuck till the end")
+    
+    ex = input("> ")
+
+    if ex == "1" or ex == "2":
+        print("You're an asshole")
+    
+    else:
+        print("Congrats mr.director! Enjoy")
+
+else:
+    print("OH you pressed enter without giving an input")
+
+
+
