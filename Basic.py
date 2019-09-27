@@ -269,3 +269,33 @@ print("Here is a puzzel.")
 
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 print("That becomes", what, "Can you do it by hand?")
+
+
+
+#What IF
+people = 20
+milf = 25
+hot_chicks = 19
+
+if people < milf:
+    print("I love 'em")
+
+if people > milf:
+    print("That's disappointing")
+
+if people < hot_chicks:
+    print("oh babes! let's do something naughty")
+
+if people > hot_chicks:
+    print("have to move Las Vegas")
+
+hot_chicks += 1
+
+if people >= hot_chicks:
+    print("people are greater than or equal to hot chicks")
+
+if people <= hot_chicks:
+    print("may be that's interisting")
+
+if people == hot_chicks:
+    print("all of them are hot_chicks")
