@@ -377,5 +377,38 @@ elif girl == "2":
 else:
     print("OH you pressed enter without giving an input")
 
+    
+    
+    
+#Loop and Lists
+the_count = [1, 2, 3, 4, 5]
+top_milf = ['britney', 'bridgette', 'lena', 'audrey']
+position = [1, 'mumu', 2, 'piya bipasha', 3, 'badhon']
+
+#this first kind of for-loop goes through a list
+for number in the_count:
+    print(f"This is count {number}")
+
+#same as above
+for milf in top_milf:
+    print(f"Top milf women are: {milf}")
+
+#also we can go through mixed list too
+#noitce we have to use {} since we dont know whats in it
+for milf in position:
+    print(f"Positions in ascending order {milf}")
+
+
+#we can also build lists, first start with an empty one
+elements = []
+#then use the range function to do 0 to 5 counts
+for i in range(0, 6):
+    print(f"Adding {i} to the list")
+    #append is a function that lists understand
+    elements.append(i)
+
+#now we can print them out too
+for i in elements:
+    print(f"Element was: {i}")
 
 
