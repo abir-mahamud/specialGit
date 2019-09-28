@@ -412,3 +412,24 @@ for i in elements:
     print(f"Element was: {i}")
 
 
+
+    
+ 
+
+#While Loops
+my_girlfriend = 0
+gf_list = []
+
+while my_girlfriend < 13:
+    print(f"Babe let's count my ex's: {my_girlfriend}")
+    gf_list.append(my_girlfriend)
+
+    my_girlfriend = my_girlfriend + 1
+
+    print("So Counting my ex's no. ", gf_list)
+    print(f"and still counting... {my_girlfriend}")
+
+print("Final list till now: ")
+
+for my_girls in gf_list:
+    print(my_girls)
