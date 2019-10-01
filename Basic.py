@@ -422,7 +422,7 @@ gf_list = []
 
 while my_girlfriend < 13:
     print(f"Babe let's count my ex's: {my_girlfriend}")
-    gf_list.append(my_girlfriend)
+    gf_list.append(my_girlfriend) # The append() method adds a single item to the end of the list.
 
     my_girlfriend = my_girlfriend + 1
 
