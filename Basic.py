@@ -512,3 +512,70 @@ def start():
         dead("You stumble around the room until you starve")
 
 start()
+
+
+
+
+
+# Dictionary 
+#create a mapping of website to abbreviation
+sites = {
+    'Naughty America': 'NA',
+    'Brazzers': 'BR',
+    'Xvideos': 'XV',
+    'Bangbros': 'BGR',
+    'Porn Hub': 'PH'
+
+}
+
+#create a basic set of sites and some stars in them
+stars = {
+    'BR': 'Leana Paul',
+    'XV': 'Brooke Beretta',
+    'PH': 'Skyla Novea'
+}
+
+#add some more stars
+stars['BGR'] = 'Anissa Kate'
+stars['NA'] = 'Desiree Dulce'
+
+#print out some stars
+print('-' * 10)
+print("NA site has: ", stars['NA'])
+print("BR site has: ", stars['BR'])
+
+#print some sites
+print('-' * 10)
+print("Naughty America's abbreviation is: ", sites['Naughty America'])
+print("Bangbros abbreviation is: ", sites['Bangbros'])
+
+#do it by using the star's name then sites dict
+print('-' * 10)
+print("Bangbros has: ", stars[sites['Bangbros']])
+print("Brazzers has: ", stars[sites['Brazzers']])
+
+#print every site abbreviation
+print('-' * 10)
+for site, abbrev in list(sites.items()):
+    print(f"{site} has abbreviated {abbrev}")
+
+#print every star in site
+print('-' * 10)
+for abbrev, star in list(stars.items()):
+    print(f"{abbrev} has the stars {star}")
+
+#now do both at the same time
+print('-' * 10)
+for site, abbrev in list(sites.items()):
+    print(f"{site} site is abbreviated {abbrev}")
+    print(f"and has stars {stars[abbrev]}")
+
+print('-' * 10)
+#safely get a abbreviation by site that might not be there
+site = sites.get('pornhd')
+if not site:
+    print("Sorry, no pornhd")
+
+#get a star with a default value
+star = stars.get('PHD', 'Does not exist')
+print(f"The star for the site 'PHD' is: {star}")
