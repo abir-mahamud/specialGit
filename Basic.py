@@ -579,3 +579,31 @@ if not site:
 #get a star with a default value
 star = stars.get('PHD', 'Does not exist')
 print(f"The star for the site 'PHD' is: {star}")
+
+
+
+
+# Modules,Clsses and Objects
+#MODULES
+#get boobs from dictionary
+mystuff = {'boobs': "I Love Boobs!"}
+print(mystuff['boobs'])
+
+#PreDefence1.tits() --- get tits from the module cuz this goes in PreDefence1.py
+def tits():
+    print("wanna squeeze?")
+
+import PreDefence1
+PreDefence1.tits()
+
+#PreDefence1.pervert ---same thing its just a variable
+def tits():
+    print("wanna squeeze?")
+
+pervert = "Yes!! i do!" #this is just a variable
+
+import PreDefence1
+PreDefence1.tits()
+
+print(PreDefence1.pervert)
+
