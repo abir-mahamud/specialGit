@@ -607,3 +607,39 @@ PreDefence1.tits()
 
 print(PreDefence1.pervert)
 
+
+
+
+#Classes and Objects
+class crush:
+
+    def __init__(self, name, category):
+        self.name = name
+        self.category = category
+    
+    def wanna_fuck_her(self):
+        print("Her name is: " + self.name)
+        print("She is such a: " + self.category)
+
+she1 = crush("Mumu", "Hot Milf")
+she2 = crush("Moon", "Prettiest")
+
+she1.wanna_fuck_her()
+she2.wanna_fuck_her()
+
+#another_example
+class Song:
+
+    def __init__(self, lyrics):
+        self.lyrics = lyrics
+
+    def sing_me_a_song(self):
+        for line in self.lyrics:
+            print(line)
+
+happy_bday = Song(["Happy birthday to you", "I dont want to get sued", "So I'll stop right there"])
+bulls_on_parade = Song(["They rally around tha family", "With pockets full of shells"])
+
+happy_bday.sing_me_a_song()
+bulls_on_parade.sing_me_a_song()
+
